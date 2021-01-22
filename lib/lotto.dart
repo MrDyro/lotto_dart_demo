@@ -70,17 +70,7 @@ class Lotto {
     var matchingNumbers = 0;
     var matchingBonusNumber = 0;
 
-    _inputs.take(6).forEach((input) {
-      _lottoService.draft.take(6).forEach((draft) {
-        if (input.value == draft.value) {
-          matchingNumbers++;
-        }
-      });
-    });
-
-    if (_inputs.last.value == _lottoService.draft.last.value) {
-      matchingBonusNumber++;
-    }
+    //TODO
 
     print(
         'Sie haben $matchingNumbers/6 Zahlen richtig und $matchingBonusNumber/1 Zusatzzahlen richtig.');
