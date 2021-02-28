@@ -1,5 +1,10 @@
-A sample command-line application with an entrypoint in `bin/`, library code in `lib/`, and example unit test in `test/`
-.
+### Lotto Dart example
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+This is a small console Lotto example application written in `Dart`. It's for learning purpose.
+
+You can find a `demo_with_bugs` branch with missing methods as a starting point.
+
+Notice:
+
+- ⚠️ Working solution will be uploaded to `master` branch.
+- ⚠️ Strings are in German.
