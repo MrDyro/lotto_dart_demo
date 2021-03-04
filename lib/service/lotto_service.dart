@@ -6,7 +6,8 @@ import 'package:lotto_dart/data/lottery_number.dart';
 
 class LottoService {
   final _random = Random();
-  final _lastDraft = List<BaseLotteryNumber>(6);
+  final List<BaseLotteryNumber> _lastDraft =
+      List.filled(6, null, growable: false);
 
   List<BaseLotteryNumber> get draft => _lastDraft;
 
